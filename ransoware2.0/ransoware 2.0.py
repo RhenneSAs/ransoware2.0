@@ -41,7 +41,7 @@ class RansomwareApp:
 
     def setup_background(self, largura, altura):
         """Configura a imagem de fundo."""
-        imagem_fundo_path = r"c:\Users\ASUS\OneDrive\Área de Trabalho\Minhas Pastas\CursoPython\ransoware 1.0\the-matrix-background-design-template-cea07eda8fcc91d950fafec04e46d21b_screen.jpg"
+        imagem_fundo_path = "imagens/matrix-background.jpg"
         imagem_fundo = Image.open(imagem_fundo_path)
         imagem_fundo = imagem_fundo.resize((largura, altura))
         imagem_fundo_tk = ImageTk.PhotoImage(imagem_fundo)
